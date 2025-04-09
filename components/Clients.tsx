@@ -95,12 +95,17 @@ const Clients = () => {
                   src={company.img}
                   alt={company.name}
                   className="md:w-10 w-5"
+                  width={40} // Adjust width as needed
+                  height={40} // Adjust height as needed
+                  priority // Optimize for LCP
                 />
                 <Image
                   src={company.nameImg}
                   alt={company.name}
                   width={company.id === 4 || company.id === 5 ? 100 : 150}
+                  height={40} // Adjust height as needed
                   className="md:w-24 w-20"
+                  priority // Optimize for LCP
                 />
               </div>
             </React.Fragment>
