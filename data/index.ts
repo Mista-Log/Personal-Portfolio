@@ -205,13 +205,21 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Mista-Log",
+    alt: "GitHub Profile",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/Oloyedelog",
+    alt: "Twitter Profile",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/ibrahim-oloyede-a86033292/",
+    alt: "LinkedIn Profile",
   },
 ];
+
+
