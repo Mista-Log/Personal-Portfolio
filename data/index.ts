@@ -5,6 +5,8 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 
+my name is Ibrahim 
+
 export const gridItems = [
   {
     id: 1,
