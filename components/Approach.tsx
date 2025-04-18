@@ -25,6 +25,9 @@ const Approach = () => {
             containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
           />
         </Card>
+        <div>
+          
+        </div>
         <Card
           title="Development & Progress Update"
           icon={<AceternityIcon order="Phase 2" />}
