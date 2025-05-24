@@ -1,13 +1,14 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
+import Image from "next/image"; // Add this import
 
 const Footer = () => {
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
       {/* Background grid - unchanged */}
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
-        <img
+        <Image
           src="/footer-grid.svg"
           alt="grid"
           className="w-full h-full opacity-50"
@@ -49,7 +50,7 @@ const Footer = () => {
               aria-label={info.alt}
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300 hover:scale-105 transition-all duration-200"
             >
-              <img
+              <Image
                 src={info.img}
                 alt={info.alt}
                 width={20}
