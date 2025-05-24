@@ -165,6 +165,7 @@ export const BentoGridItem = ({
                   >
                     {item}
                   </span>
+
                 ))}
               </div>
             </div>
